@@ -41,6 +41,8 @@ Repo Link: [Repo Link](https://github.com/cerafinn/git-it-done)
 
 ![IMG](./assets/images/git-it-done-screenshot.png)
 
+![SINGLE REPO](./assets/images/git-it-done-single-repo-screenshot.png)
+
 ## Contributing
 
 If interested in contributing to the project, feel free to reach out. Contact information can be found in the Questions section.
