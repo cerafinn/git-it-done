@@ -36,14 +36,14 @@ var formSubmitHandler = function(event) {
   event.preventDefault();
 
   // get value from input element
-var username = nameInputEl.value.trim();
+  var username = nameInputEl.value.trim();
 
-if (username) {
-  getUserRepos(username);
-  nameInputEl.value = "";
-} else {
-  alert("Please enter a GitHub username");
-}
+  if (username) {
+    getUserRepos(username);
+    nameInputEl.value = "";
+  } else {
+    alert("Please enter a GitHub username");
+  }
 };
 
 var displayRepos = function(repos, searchTerm) {
